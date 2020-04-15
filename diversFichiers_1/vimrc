@@ -1,0 +1,14 @@
+syntax on
+set number
+set shiftwidth=4  
+set softtabstop=0 noexpandtab
+set autoindent  
+set smartindent    
+set nowrap
+set pastetoggle=<F3>
+vnoremap < <gv
+vnoremap > >gv
+filetype indent plugin on
+set mouse =a
+set whichwrap+=<,>,[,]
+set backspace=indent,eol,start

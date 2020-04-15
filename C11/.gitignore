@@ -1,0 +1,15 @@
+main.c
+*/a.out
+a.out
+show_fin.sh
+show_debut.sh
+makeheaders
+setup_main.sh
+enleve_tabs.sh
+*.o
+*/*.o
+*.a
+*/*.a
+*/*.h.gch
+.DS_Store
+*/.DS_Store

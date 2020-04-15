@@ -1,0 +1,77 @@
+
+	code	normi
+C02 - 	ok	ok
+C03 - 	KO	ok
+
+
+
+----------------
+LLDB
+
+clang++ -Wall -g -o prog1 prog1.cpp
+lldb a.out
+run 100 test1.dat
+f
+backtrace (bt)
+break (b) prog1.cpp:12
+break prog1.cpp:my_subroutine
+step (s)
+next (n)
+continue (c)
+(finish)
+print variableName
+print *pointer
+frame variable
+-------------------
+
+
+cp -rf path_to_source/ path_to_destination/
+
+git diff HEAD^
+
+
+git config --get remote.origin.url
+git remote show origin
+
+git remote add origin https://github.com/
+
+git remote rm origin
+git remote add origin git@github.com:aplikacjainfo/proj1.git
+git config master.remote origin
+git config master.merge refs/heads/master
+
+git push -u origin devel
+git push -u github devel
+
+git remote set-url --add --push origin git://original/repo.git
+git remote set-url --add --push origin git://another/repo.git
+git remote set-url --delete --push origin git://another/repo.git
+
+git remote rm origin
+git remote add origin https://github.com/
+git add -A
+git commit -m "essai"
+git push -u origin master
+git remote set-url --add --push origin https://github.com/
+git remote set-url --add --push origin
+vogsphere@vogsphere.42.fr:intra/2019/activities/c_piscine_c_05/nklarsfe
+vogsphere@vogsphere.42.fr:intra/2019/activities/c_piscine_c_07/nklarsfe
+https://nicokla@bitbucket.org/nicokla/c07.git
+https://nicokla@bitbucket.org/nicokla/libft_git.git
+git remote add origin git@github.com:nicokla/libft_git.git
+
+#  !!!!!!!!!!!!!!!!
+git remote set-url --add --push origin
+git remote set-url --add --push origin vogsphere@vogsphere.42.fr:intra/2019/activities/c_piscine_c_05/nklarsfe
+
+echo "# C08" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin
+git push -u origin master
+
+int		main(){
+	int a = ft_ten_queens_puzzle();
+	printf("\n%d\n",a);
+}

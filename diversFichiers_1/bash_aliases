@@ -1,0 +1,3 @@
+alias gccw="gcc -Wall -Wextra -Werror"
+alias normi="norminette -R CheckForbiddenSourceHeader"
+alias nyancat="telnet nyancat.acc.umu.se"

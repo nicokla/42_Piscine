@@ -1,0 +1,13 @@
+main.c
+*a.out
+a.out*
+show_fin.sh
+show_debut.sh
+*.h
+*/*.h
+makeheaders
+setup_main.sh
+enleve_tabs.sh
+*.o
+*/*.o
+*/*.h.gch
